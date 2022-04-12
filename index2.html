@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Operator Practice</title>
+</head>
+
+<body>
+    <h1 id="h_first">Arithmetic Operator</h1>
+    <h1 id="h_second">Number of weeks in a year</h1>
+
+
+    <script>
+        // Challenge 1: 
+        document.getElementById("h_first").style.marginBottom = "0px"; 
+        document.getElementById("h_second").style.marginBottom = "5px"; 
+        document.getElementById("h_second").style.marginTop = "0px"; 
+        var days = 365;
+        var Week_days = 7;
+        var remaining_days = days % Week_days;   //Module Operation 
+        document.write("52 Weeks and " + remaining_days + " Day is there in a year");
+        document.write("<br>");
+        document.write("<br>");
+        document.write("<br>");
+        
+        
+        // Challenge 2: 
+        var str = "Hello Students";
+        var str2 = "Good Morning";
+        var string = str + " " + str2;
+        document.write("<b>String Concatenation Operator</b>");
+        document.write("<br>");
+        document.write(string);
+    </script>
+</body>
+
+</html>
